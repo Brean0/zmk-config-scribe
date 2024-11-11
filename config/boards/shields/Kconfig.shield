@@ -1,0 +1,5 @@
+config SHIELD_SCRIBE_LEFT
+    def_bool $(shields_list_contains,scribe_left)
+
+config SHIELD_SCRIBE_RIGHT
+    def_bool $(shields_list_contains,scribe_right)
